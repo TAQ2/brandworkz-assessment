@@ -20,7 +20,7 @@ Please note the call to the geocode.xyz api sometimes fails and doesn't work eve
 
 ## Comments
 
-2. I use a server to mediate the calls to the darksky API. This is so that the secret key you obtain fron darksky is not exposed to the fontend, which would be a security risk.
+1. I use a server to mediate the calls to the darksky API. This is so that the secret key you obtain fron darksky is not exposed to the fontend, which would be a security risk.
 
 ## Things to refactor given more time
 
