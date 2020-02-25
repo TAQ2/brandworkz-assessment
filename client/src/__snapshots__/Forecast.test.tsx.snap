@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "3em",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      test city
+    </div>
+    <div
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": "1.5em",
+        }
+      }
+    >
+      test country
+    </div>
+  </div>
+  <styled.div>
+    <styled.div>
+      <WeatherIcon
+        type="cloudy"
+      />
+    </styled.div>
+    <div>
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        test summar 
+      </div>
+      <div>
+        Temperature: 
+        111°
+        C
+      </div>
+      <div>
+        Humidity: 
+        222
+        %
+      </div>
+      <div>
+        Wind speed: 
+        333
+        mph
+      </div>
+    </div>
+  </styled.div>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid purple",
+      "display": "inline-block",
+      "marginBottom": "3em",
+    }
+  }
+>
+  <styled.input
+    onChange={[Function]}
+    placeholder="Type a city"
+    value="Test"
+  />
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "border": "none",
+        "cursor": "pointer",
+        "fontSize": "1em",
+        "outline": "0",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <GoSearch />
+  </button>
+</div>
+`;
